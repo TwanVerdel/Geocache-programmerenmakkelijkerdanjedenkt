@@ -32,6 +32,7 @@ Na welke rij operaties eindigt jouw racewagen startend in coördinaat (0,0) prec
 7: >^^>.><v^v<v<^^vv<>v
 8: >.>.<.^^....<>v.v^<.
 9: >^>^.^><v^v<v<vv><.<<
+  
 Woordwaarde
 B = Bij deze opgave moet de waarde van een woord worden berekend. Alleen gebruiken we nu niet de normale manier van woordwaarde berekenen. We hebben te maken met de volgende regels:
 
