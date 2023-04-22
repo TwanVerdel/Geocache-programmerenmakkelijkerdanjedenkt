@@ -1,7 +1,7 @@
 # Geocache programmeren is makkelijker dan je denk
 Deze repository bevat powershell scripts die te gebruiken zijn voor het oplossen van Geocache trail (mystery) programmeren is makkelijker dan je denkt.
 
-##Cache omschrijving - GC6DNDV
+## Cache omschrijving - GC6DNDV
 ### Credits voor deze cache aan met218
 
 
