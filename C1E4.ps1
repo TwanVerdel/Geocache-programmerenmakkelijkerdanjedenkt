@@ -10,17 +10,25 @@ $nine = 6
 $zero = 6
 
 function TelStreepjes($n) {
-    $streepjes = @($zero, $one, $two, $three, $four, $five, $six, $seven, $eight, $nine)
-    $count = 0
     for ($i = 1; $i -le $n; $i++) {
         $digits = [string]$i -split ''
-        foreach ($digit in $digits) {
-            $count += $streepjes[$digit]
-        }
-        if ($count -ge 15) {
-            Write-Host "Gevonden: $i ($count streepjes)"
-        }
         $count = 0
+        foreach ($digit in $digits) {
+            switch ($digit) {
+                1 { $count += $one }
+                2 { $count += $two }
+                3 { $count += $three }
+                4 { $count += $four }
+                5 { $count += $five }
+                6 { $count += $six }
+                7 { $count += $seven }
+                8 { $count += $eight }
+                9 { $count += $nine }
+                0 { $count += $zero}
+            }
+        } if ($count -ge 15){
+            Write-Host "$i = $count"
+        }
     }
 }
 
